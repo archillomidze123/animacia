@@ -1,3 +1,6 @@
+header{
+	padding: 15px;
+}
 .logo-html{
 	width: 100px;
 	transition: all 0.3s ease 0.3s;
@@ -7,21 +10,34 @@
 }
 .flex{
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .navigation-div{
 	background-color: #fff;
+	width: 1171px;
+	margin:0 auto;
+	justify-content: space-between;
+	align-items: center;
 }
 .navigation-li{
 	margin-right: 20px;
+	font-size: 24px;
+	color: #3D58A6;
 }
-.google{
-	height: 30px;
+.navigation-li:last-child{
+	margin-right: 0;
 }
-.facebook{
+.icon-li:after{
+	content: '';
+	width: 2px;
 	height: 30px;
+	display: inline-block;
+	background-color: #3D58A6;
+	margin: 0 15px;
 }
-.youtube{
-	height: 30px;
+.icon-li:last-child:after{
+	display: none;
 }
 .relative{
 	position: relative;
@@ -52,14 +68,96 @@
 }
 .section2{
 	background-color: #363E97;
+	padding-bottom: 90px;
+	padding-top: 30px;
+}
+.section-div2-2 h2{
+	font-size: 28px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.diva{
+	width: 570px;
+	height: 320px;
+	background-color: #fff;
+}
+.diva p{
+	text-align: center;
+	margin-top: 150px;
+
+}
+.dia{
+	justify-content: space-between;
 }
 .section3{
 	background-color: #BDCCD4;
+	padding-bottom: 90px;
+	padding-top: 30px;
+}
+.section3 h2{
+	font-size: 28px;
+	color: #3D58A6;
+	margin-bottom: 30px;
+}
+.box{
+	justify-content: space-between;
+}
+.box p{
+	margin-bottom: 30px;
+	font-size: 26px;
+	background-color: #fff;
+	padding: 5px;
+}
+.boxis img{
+	display: block;
 }
 .section4{
 	background-color: #E6E6E6;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section4 h2{
+	font-size: 28px;
+	padding-bottom: 30px;
 }
 .wight{
 	width: 1171px;
-	margin: 0px 97px 0px 150px;
+	margin: 0 auto;
+}
+.section-div4-4{
+	align-items: center;
+}
+.shvili img{
+	height: 130px;
+	padding: 15px;
+}
+.shvilishvili p{
+	width: 440px;
+	font-size: 24px;
+}
+.shvili{
+	background-color: #F2F2F2;
+}
+.shvilishvili{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	background-color: #F2F2F2;
+}
+.shvili h3{
+	font-size: 26px;
+	color: #3D58A6;
+}
+.shvili p{
+	color: #3D58A6;
+}
+.read{
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+	font-size: 16px;
+}
+.footer{
+	padding: 10px;
 }
