@@ -1,0 +1,21 @@
+.logo-html{
+	width: 100px;
+}
+.flex{
+	display: flex;
+}
+.navigation-div{
+	background-color: #BDCCD4;
+}
+.navigation-li{
+	margin-right: 20px;
+}
+.google{
+	height: 30px;
+}
+.facebook{
+	height: 30px;
+}
+.youtube{
+	height: 30px;
+}
